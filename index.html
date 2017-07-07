@@ -1,50 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="style.css">	
-	<title>calculator</title>
+  <meta charset="UTF-8">
+  <title>calculator</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 
 <body>
 
-<div id="calculator">
-    <input type="text" id="display" value="0"/>
-    
-    <div class="row">
-     <input type="button" value="1" class="number" />
-     <input type="button" value="2" class="number" />
-     <input type="button" value="3" class="number" />
-     <input type="button" value="+" class="operation" />
-    </div>
-     
+  <div class="background" id="calculator">
+
+    <input type="text" id="display" value="0" />
+    <input type="button" value="<" class="operation" id="clear" />
+    <input type="button" value=">" class="operation" id="clear" />
+
+
     <div class="row">
       <input type="button" value="4" class="number" />
       <input type="button" value="5" class="number" />
       <input type="button" value="6" class="number" />
-      <input type="button" value="-" class="operation" />  
+      <input type="button" value="Del" class="operation" id="Delwide" />
     </div>
-     
+
     <div class="row">
       <input type="button" value="7" class="number" />
       <input type="button" value="8" class="number" />
       <input type="button" value="9" class="number" />
-      <input type="button" value="x" class="operation" />  
+      <input type="button" value="%" class="operation %" />
+      <input type="button" value="&radic;" class="operation" />
     </div>
-     
+
     <div class="row">
-      <input type="button" value="0" class="number wide" />
-      <input type="button" value="C" class="operation clear"/> 
+      <input type="button" value="1" class="number" />
+      <input type="button" value="2" class="number" />
+      <input type="button" value="3" class="number" />
+      <input type="button" value="x" class="operation" />
       <input type="button" value="/" class="operation" />
     </div>
-     
-    <div class="row">  
-      <input type="button" value="&radic;" class="operation" />  
-      <input type="button" value="^" class="operation" />
-      <input type="button" value="=" class="operation wide" />  
-    </div>    
+
+    <div class="row">
+      <input type="button" value="." class="operationnum" />
+      <input type="button" value="0" class="number" />
+      <input type="button" value="=" class="operationnum" />
+      <input type="button" value="+" class="operation" />
+      <input type="button" value="-" class="operation" />
+    </div>
   </div>
-	<link rel="stylesheet" href="script.js" />
-	</body>
+
+
+  <link rel="stylesheet" href="script.js" />
+</body>
 
 </html>
